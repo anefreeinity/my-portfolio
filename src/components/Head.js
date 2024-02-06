@@ -11,6 +11,9 @@ import "./main.css";
 import "./main.min.css";
 import "font-awesome/css/font-awesome.min.css";
 import About from "./About";
+import Service from "./Services";
+import Project from "./Projects";
+import Client from "./Clients";
 
 export default function Head() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -29,6 +32,7 @@ export default function Head() {
   });
 
   const triggerNavItem = (id) => {
+    // console.log(id);
     scroller.scrollTo(id, { smooth: true });
   };
 
@@ -94,7 +98,7 @@ export default function Head() {
                   <li className="group pl-6">
                     <span
                       // @click="triggerNavItem('#clients')"
-                      onClick={() => triggerNavItem("#clients")}
+                      onClick={() => triggerNavItem("clients")}
                       className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
                     >
                       Clients
@@ -106,7 +110,7 @@ export default function Head() {
                   <li className="group pl-6">
                     <span
                       // @click="triggerNavItem('#work')"
-                      onClick={() => triggerNavItem("#work")}
+                      onClick={() => triggerNavItem("work")}
                       className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
                     >
                       Work
@@ -118,7 +122,7 @@ export default function Head() {
                   <li className="group pl-6">
                     <span
                       // @click="triggerNavItem('#statistics')"
-                      onClick={() => triggerNavItem("#statistics")}
+                      onClick={() => triggerNavItem("statistics")}
                       className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
                     >
                       Statistics
@@ -130,7 +134,7 @@ export default function Head() {
                   <li className="group pl-6">
                     <span
                       // @click="triggerNavItem('#blog')"
-                      onClick={() => triggerNavItem("#blog")}
+                      onClick={() => triggerNavItem("blog")}
                       className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
                     >
                       Blog
@@ -142,7 +146,7 @@ export default function Head() {
                   <li className="group pl-6">
                     <span
                       // @click="triggerNavItem('#contact')"
-                      onClick={() => triggerNavItem("#contact")}
+                      onClick={() => triggerNavItem("contact")}
                       className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
                     >
                       Contact
@@ -193,7 +197,7 @@ export default function Head() {
                 <li className="py-2">
                   <span
                     //   @click="triggerMobileNavItem('#about')"
-                    onClick={() => triggerMobileNavItem("#about")}
+                    onClick={() => triggerMobileNavItem("about")}
                     className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
                   >
                     About
@@ -323,6 +327,9 @@ export default function Head() {
             </div>
 
             <About />
+            <Service />
+            <Project />
+            <Client />
           </div>
         </div>
       </div>
