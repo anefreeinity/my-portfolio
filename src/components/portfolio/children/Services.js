@@ -1,20 +1,20 @@
-import iconDevWhite from "../assets/img/icon-development-white.svg";
-import iconDevBlack from "../assets/img/icon-development-black.svg";
+import iconDevWhite from "../../../assets/img/icon-development-white.svg";
+import iconDevBlack from "../../../assets/img/icon-development-black.svg";
 
-import iconCntWhite from "../assets/img/icon-content-white.svg";
-import iconCntBlack from "../assets/img/icon-content-black.svg";
+import iconCntWhite from "../../../assets/img/icon-content-white.svg";
+import iconCntBlack from "../../../assets/img/icon-content-black.svg";
 
-import iconMobWhite from "../assets/img/icon-mobile-white.svg";
-import iconMobBlack from "../assets/img/icon-mobile-black.svg";
+import iconMobWhite from "../../../assets/img/icon-mobile-white.svg";
+import iconMobBlack from "../../../assets/img/icon-mobile-black.svg";
 
-import iconEmlWhite from "../assets/img/icon-email-white.svg";
-import iconEmlBlack from "../assets/img/icon-email-black.svg";
+import iconEmlWhite from "../../../assets/img/icon-email-white.svg";
+import iconEmlBlack from "../../../assets/img/icon-email-black.svg";
 
-import iconDsnWhite from "../assets/img/icon-design-white.svg";
-import iconDsnBlack from "../assets/img/icon-design-black.svg";
+import iconDsnWhite from "../../../assets/img/icon-design-white.svg";
+import iconDsnBlack from "../../../assets/img/icon-design-black.svg";
 
-import iconGraWhite from "../assets/img/icon-graphics-white.svg";
-import iconGraBlack from "../assets/img/icon-graphics-black.svg";
+import iconGraWhite from "../../../assets/img/icon-graphics-white.svg";
+import iconGraBlack from "../../../assets/img/icon-graphics-black.svg";
 
 export default function Service() {
   return (

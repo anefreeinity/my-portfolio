@@ -1,4 +1,4 @@
-import appleProject from "../assets/img/portfolio-apple.jpeg";
+import appleProject from "../../../assets/img/portfolio-apple.jpeg";
 
 export default function Project() {
   return (

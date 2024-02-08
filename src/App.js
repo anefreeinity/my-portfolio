@@ -1,11 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
-import NavbarFunc from "./components/Navbar.js";
-import Head from "./components/Head.js";
+import Portfolio from "./components/portfolio/Portfolio.js";
 
 function App() {
-  //return <NavbarFunc />;
-  return <Head />;
+  return <Portfolio />;
 }
 
 export default App;

@@ -1,4 +1,4 @@
-import cocacola from "../assets/img/logo-coca-cola.svg";
+import cocacola from "../../../assets/img/logo-coca-cola.svg";
 
 export default function Client() {
   return (
