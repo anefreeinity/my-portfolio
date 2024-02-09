@@ -1,6 +1,7 @@
 import logo from "../../../assets/img/logo.svg";
 import backgroundimage from "../../../assets/img/bg-hero.jpg";
-import blogAutor from "../../../assets/img/blog-author.jpg";
+// import blogAutor from "../../../assets/img/blog-author.jpg";
+import blogAutor from "../../../assets/mydata/profile_photo.jpg";
 import closeIcon from "../../../assets/img/icon-close.svg";
 
 import About from "./About";
@@ -12,6 +13,8 @@ import Statistics from "./Statistics";
 import Blog from "./Blog";
 import Contact from "./Contact";
 import Footer from "./Footer";
+
+import { PORTFOLIO_DATA } from "../../../data/Data";
 
 export default function Head({
   triggerNavItem,
@@ -248,7 +251,7 @@ export default function Head({
               </div>
               <div className="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
                 <h1 className="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
-                  Hello I'm Christy Smith!
+                  Hello I'm Ayan Bhattacharya!
                 </h1>
                 <div className="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start">
                   <div className="flex items-center justify-center pl-0 sm:justify-start md:pl-1">

@@ -12,9 +12,9 @@ export default function Portfolio() {
 
   useEffect(() => {
     const handleResize = () => {
-      window.innerWidth < 768
-        ? setMobileMenuOpen(true)
-        : setMobileMenuOpen(false);
+      // window.innerWidth < 768
+      //   ? setMobileMenuOpen(true)
+      //   : setMobileMenuOpen(false);
     };
     window.addEventListener("resize", handleResize);
 
