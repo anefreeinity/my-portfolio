@@ -1,4 +1,5 @@
 import logo from "../../../assets/img/logo.svg";
+import anyfreeinity from "../../../assets/mydata/anefreeinity_logo.svg";
 import backgroundimage from "../../../assets/img/bg-hero.jpg";
 // import blogAutor from "../../../assets/img/blog-author.jpg";
 import blogAutor from "../../../assets/mydata/profile_photo.jpg";
@@ -28,7 +29,22 @@ export default function Head({
         <div className="container flex items-center justify-between">
           <div>
             <a href="/">
-              <img src={logo} className="w-24 lg:w-48" alt="logo image" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="100%"
+                height="100%"
+                viewBox="0 0 350 50"
+              >
+                <text
+                  x="10"
+                  y="40"
+                  fill="white"
+                  fontFamily="Trebuchet MS, sans-serif"
+                  className="font-header text-4xl font-semibold text-primary sm:text-5xl lg:text-5xl"
+                >
+                  ANEFreeInIty
+                </text>
+              </svg>
             </a>
           </div>
 

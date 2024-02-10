@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5a871f9a.css",
-    "main.js": "/static/js/main.09a9b957.js",
+    "main.css": "/static/css/main.06b24ad1.css",
+    "main.js": "/static/js/main.9b603c25.js",
     "static/js/787.2dcca737.chunk.js": "/static/js/787.2dcca737.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/bg-hero.jpg": "/static/media/bg-hero.b9b1ac855105d7e89ca5.jpg",
@@ -11,7 +11,7 @@
     "static/media/portfolio-apple.jpeg": "/static/media/portfolio-apple.708ee61895e3a4c85fa6.jpeg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/blog-author.jpg": "/static/media/blog-author.9c1179ef3650b9801b24.jpg",
+    "static/media/profile_photo.jpg": "/static/media/profile_photo.948c7bfca3a664350041.jpg",
     "static/media/icon-puzzle.svg": "/static/media/icon-puzzle.d833ba8e295caede4b4c1e28353e1bbc.svg",
     "static/media/logo-coca-cola.svg": "/static/media/logo-coca-cola.5624efdcbb43b8dca3409e6aa8146929.svg",
     "static/media/logo-spotify.svg": "/static/media/logo-spotify.691ed53991f8fba2d752b59bd61c915e.svg",
@@ -32,13 +32,14 @@
     "static/media/icon-happy.svg": "/static/media/icon-happy.56dce3445d66c5c134d087cd085d074c.svg",
     "static/media/logo.svg": "/static/media/logo.918bc1ba3accff97117b5924e976eac9.svg",
     "index.html": "/index.html",
+    "static/media/anefreeinity_logo.svg": "/static/media/anefreeinity_logo.3aed4ae7593fcefb09bc5c0a8b38e229.svg",
     "static/media/icon-close.svg": "/static/media/icon-close.92997aeb336fdcb48df9853630dee659.svg",
-    "main.5a871f9a.css.map": "/static/css/main.5a871f9a.css.map",
-    "main.09a9b957.js.map": "/static/js/main.09a9b957.js.map",
+    "main.06b24ad1.css.map": "/static/css/main.06b24ad1.css.map",
+    "main.9b603c25.js.map": "/static/js/main.9b603c25.js.map",
     "787.2dcca737.chunk.js.map": "/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a871f9a.css",
-    "static/js/main.09a9b957.js"
+    "static/css/main.06b24ad1.css",
+    "static/js/main.9b603c25.js"
   ]
 }
