@@ -3,6 +3,7 @@ import iconProduct from "../../../assets/img/icon-project.svg";
 import iconAward from "../../../assets/img/icon-award.svg";
 import iconHappy from "../../../assets/img/icon-happy.svg";
 import iconPuzzle from "../../../assets/img/icon-puzzle.svg";
+import { PORTFOLIO_DATA } from "../../../data/Data";
 
 export default function Statistics() {
   return (
@@ -26,7 +27,7 @@ export default function Statistics() {
               </div>
               <div className="pt-5 md:pl-5 md:pt-0">
                 <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
-                  12
+                  {PORTFOLIO_DATA.statistic.finishedProjects}
                 </h1>
                 <h4 className="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
                   Finished Projects
@@ -44,7 +45,7 @@ export default function Statistics() {
               </div>
               <div className="pt-5 md:pl-5 md:pt-0">
                 <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
-                  3
+                  {PORTFOLIO_DATA.statistic.awardsWon}
                 </h1>
                 <h4 className="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
                   Awards Won
@@ -62,10 +63,10 @@ export default function Statistics() {
               </div>
               <div className="pt-5 md:pl-5 md:pt-0">
                 <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
-                  8
+                  {PORTFOLIO_DATA.statistic.companies}
                 </h1>
                 <h4 className="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
-                  Happy Clients
+                  Companies
                 </h4>
               </div>
             </div>
@@ -80,7 +81,7 @@ export default function Statistics() {
               </div>
               <div className="pt-5 md:pl-5 md:pt-0">
                 <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
-                  99
+                  {PORTFOLIO_DATA.statistic.bugFixed}
                 </h1>
                 <h4 className="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
                   Bugs Fixed

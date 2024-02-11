@@ -2,9 +2,10 @@ export const PORTFOLIO_DATA = {
   profile: {
     name: "Ayan Bhattacharya",
     photo: "../assets/mydata/profile_photo.jpg",
-    phone: "",
-    mail: "",
-    address: "",
+    phone_i: "+91",
+    phone: "8918598165",
+    mail: "ayanbhattacharya18@gmail.com",
+    address: "Kolkata, West Bengal, India",
     socialMedia: [
       {
         name: "facebook",
@@ -67,25 +68,25 @@ export const PORTFOLIO_DATA = {
     {
       photo:
         "https://pbs.twimg.com/media/GGEL9bVbEAAAXtK?format=jpg&name=large",
-      hostLink: "",
+      hostLink: "https://anefreeinity.vercel.app/",
       repoLink: "",
     },
     {
       photo:
         "https://pbs.twimg.com/media/GGEL9TMbUAA6Wx-?format=jpg&name=large",
-      hostLink: "",
+      hostLink: "https://anefreeinity.vercel.app/",
       repoLink: "",
     },
     {
       photo:
         "https://pbs.twimg.com/media/GGEL9OlaAAAeRIb?format=jpg&name=large",
       hostLink: "",
-      repoLink: "",
+      repoLink: "https://github.com/anefreeinity-org/ANEFreeInIty-AI",
     },
     {
       photo:
         "https://pbs.twimg.com/media/GGEL9GQa0AA2wfx?format=jpg&name=large",
-      hostLink: "",
+      hostLink: "https://anefreeinity-three.netlify.app/",
       repoLink: "",
     },
   ],
@@ -93,21 +94,28 @@ export const PORTFOLIO_DATA = {
     {
       timeline: "Mar 2022 - May 2022",
       title: "Internship, Analyst",
-      description: "",
+      description: `Successfully completed a 60-day full-stack internship, 
+      wherein I extensively utilized Core Java, Hibernate, JPA, and Spring Boot for backend development.
+      Additionally, I leveraged PL/SQL for database management and Angular for frontend development. 
+      Upon completion of the internship, I actively contributed to the creation of a comprehensive 
+      full-stack application.`,
       logo: "https://upload.wikimedia.org/wikipedia/commons/9/9d/Capgemini_201x_logo.svg",
     },
     {
       timeline: "Aug 2022 - Present",
       title: "Associate Software Engineer",
-      description: "",
+      description: `I have been employed as a full-stack developer, where my responsibilities include 
+      developing intricate webpages using Angular for the frontend, constructing web APIs using 
+      .NET Core, and managing databases using PostgreSQL. Additionally, I have implemented unit test 
+      cases for both frontend and backend components.`,
       logo: "https://cdn.worldvectorlogo.com/logos/johnson-controls-logo-1.svg",
     },
   ],
   statistic: {
-    finishedProjects: 0,
-    awardsWon: 0,
-    happyClients: 0,
-    bugFixed: 0,
+    finishedProjects: 3,
+    awardsWon: 2,
+    companies: 2,
+    bugFixed: 17,
   },
 };
 

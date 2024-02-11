@@ -32,7 +32,10 @@ export default function Work() {
                 {company.title}
               </span>
               <div className="pt-2">
-                <span className="block font-body text-black">
+                <span
+                  className="block font-body text-black"
+                  style={{ textAlign: "justify", textJustify: "inter-word" }}
+                >
                   {company.description}
                 </span>
               </div>

@@ -1,3 +1,5 @@
+import { PORTFOLIO_DATA } from "../../../data/Data";
+
 export default function Contact() {
   return (
     <div className="container py-16 md:py-20" id="contact">
@@ -9,10 +11,7 @@ export default function Contact() {
       </h4>
       <div className="mx-auto w-full pt-5 text-center sm:w-2/3 lg:pt-6">
         <p className="font-body text-grey-10">
-          Lorem ipsum dolor sit amet consectetur adipiscing elit hendrerit
-          condimentum turpis nisl sem, viverra habitasse urna ante lobortis
-          fermentum accumsan. Viverra habitasse urna ante lobortis fermentum
-          accumsan.
+          Please provide your name and email address, along with your message.
         </p>
       </div>
       <form className="mx-auto w-full pt-10 sm:w-3/4">
@@ -51,7 +50,7 @@ export default function Contact() {
             </p>
           </div>
           <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-            (+881) 111 222 333
+            ({PORTFOLIO_DATA.profile.phone_i}) {PORTFOLIO_DATA.profile.phone}
           </p>
         </div>
         <div className="w-full border-l-2 border-t-0 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3 lg:border-l-0 lg:border-t-2">
@@ -62,7 +61,7 @@ export default function Contact() {
             </p>
           </div>
           <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-            name@mydomain.com
+            {PORTFOLIO_DATA.profile.mail}
           </p>
         </div>
         <div className="w-full border-l-2 border-t-0 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3 lg:border-l-0 lg:border-t-2">
@@ -73,7 +72,7 @@ export default function Contact() {
             </p>
           </div>
           <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-            123 New York D Block 1100, 2011 USA
+            {PORTFOLIO_DATA.profile.address}
           </p>
         </div>
       </div>

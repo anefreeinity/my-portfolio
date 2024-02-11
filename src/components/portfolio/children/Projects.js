@@ -13,7 +13,8 @@ export default function Project() {
 
       <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
         <a
-          href="/"
+          href={PORTFOLIO_DATA.projects[0].hostLink}
+          target="_blank"
           className="mx-auto transform transition-all hover:scale-105 md:mx-0"
         >
           <img
@@ -23,7 +24,8 @@ export default function Project() {
           />
         </a>
         <a
-          href="/"
+          href={PORTFOLIO_DATA.projects[1].hostLink}
+          target="_blank"
           className="mx-auto transform transition-all hover:scale-105 md:mx-0"
         >
           <img
@@ -33,7 +35,8 @@ export default function Project() {
           />
         </a>
         <a
-          href="/"
+          href={PORTFOLIO_DATA.projects[2].repoLink}
+          target="_blank"
           className="mx-auto transform transition-all hover:scale-105 md:mx-0"
         >
           <img
@@ -43,7 +46,8 @@ export default function Project() {
           />
         </a>
         <a
-          href="/"
+          href={PORTFOLIO_DATA.projects[3].hostLink}
+          target="_blank"
           className="mx-auto transform transition-all hover:scale-105 md:mx-0"
         >
           <img
