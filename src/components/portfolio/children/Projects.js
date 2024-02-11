@@ -1,13 +1,14 @@
 import appleProject from "../../../assets/img/portfolio-apple.jpeg";
+import { PORTFOLIO_DATA } from "../../../data/Data";
 
 export default function Project() {
   return (
-    <div className="container py-16 md:py-20" id="portfolio">
+    <div className="container py-16 md:py-20" id="projects">
       <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-        Check out my Portfolio
+        Check out my Projects
       </h2>
       <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-        Here's what I have done with the past
+        Here's what I have done in the past
       </h3>
 
       <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
@@ -16,9 +17,9 @@ export default function Project() {
           className="mx-auto transform transition-all hover:scale-105 md:mx-0"
         >
           <img
-            src={appleProject}
+            src={PORTFOLIO_DATA.projects[0].photo}
             className="w-full shadow"
-            alt="portfolio image"
+            alt="drive image"
           />
         </a>
         <a
@@ -26,9 +27,9 @@ export default function Project() {
           className="mx-auto transform transition-all hover:scale-105 md:mx-0"
         >
           <img
-            src={appleProject}
+            src={PORTFOLIO_DATA.projects[1].photo}
             className="w-full shadow"
-            alt="portfolio image"
+            alt="project image"
           />
         </a>
         <a
@@ -36,9 +37,9 @@ export default function Project() {
           className="mx-auto transform transition-all hover:scale-105 md:mx-0"
         >
           <img
-            src={appleProject}
+            src={PORTFOLIO_DATA.projects[2].photo}
             className="w-full shadow"
-            alt="portfolio image"
+            alt="project image"
           />
         </a>
         <a
@@ -46,9 +47,9 @@ export default function Project() {
           className="mx-auto transform transition-all hover:scale-105 md:mx-0"
         >
           <img
-            src={appleProject}
+            src={PORTFOLIO_DATA.projects[3].photo}
             className="w-full shadow"
-            alt="portfolio image"
+            alt="project image"
           />
         </a>
       </div>

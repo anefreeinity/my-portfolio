@@ -23,7 +23,7 @@ export default function Service() {
         Here's what I'm good at
       </h2>
       <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-        These are the services Ioffer
+        These are the services I offer
       </h3>
 
       <div className="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
@@ -41,61 +41,61 @@ export default function Service() {
               WEB DEVELOPMENT
             </h3>
             <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Mostly I use Angular and React.js for web development.
             </p>
           </div>
         </div>
         <div className="group rounded px-8 py-12 shadow hover:bg-primary">
           <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
             <div className="hidden group-hover:block">
-              <img src={iconCntWhite} alt="content marketing icon" />
+              <img src={iconMobWhite} alt="content marketing icon" />
             </div>
             <div className="block group-hover:hidden">
-              <img src={iconCntBlack} alt="content marketing icon" />
+              <img src={iconMobBlack} alt="content marketing icon" />
             </div>
           </div>
           <div className="text-center">
             <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-              Technical Writing
+              API DEVELOPMENT
             </h3>
             <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              I use DotNet Core and Node.js with Express.js for API development.
             </p>
           </div>
         </div>
         <div className="group rounded px-8 py-12 shadow hover:bg-primary">
           <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
             <div className="hidden group-hover:block">
-              <img src={iconMobWhite} alt="Mobile Application icon" />
+              <img src={iconGraWhite} alt="Mobile Application icon" />
             </div>
             <div className="block group-hover:hidden">
-              <img src={iconMobBlack} alt="Mobile Application icon" />
+              <img src={iconGraBlack} alt="Mobile Application icon" />
             </div>
           </div>
           <div className="text-center">
             <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-              Mobile Development
+              3D Graphics Development
             </h3>
             <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Currently I'm using ThreeJS for 3D graphics development.
             </p>
           </div>
         </div>
         <div className="group rounded px-8 py-12 shadow hover:bg-primary">
           <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
             <div className="hidden group-hover:block">
-              <img src={iconEmlWhite} alt="Email Marketing icon" />
+              <img src={iconCntWhite} alt="Graphic Design icon" />
             </div>
             <div className="block group-hover:hidden">
-              <img src={iconEmlBlack} alt="Email Marketing icon" />
+              <img src={iconCntBlack} alt="Graphic Design icon" />
             </div>
           </div>
           <div className="text-center">
             <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-              Email Development
+              Embedded Programming
             </h3>
             <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              I've experience with Arduino and Raspberry Pi.
             </p>
           </div>
         </div>
@@ -110,28 +110,28 @@ export default function Service() {
           </div>
           <div className="text-center">
             <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-              Graphic Design
+              Drone Designing
             </h3>
             <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              I've designed and created my own drone.
             </p>
           </div>
         </div>
         <div className="group rounded px-8 py-12 shadow hover:bg-primary">
           <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
             <div className="hidden group-hover:block">
-              <img src={iconGraWhite} alt="Graphic Design icon" />
+              <img src={iconEmlWhite} alt="Email Marketing icon" />
             </div>
             <div className="block group-hover:hidden">
-              <img src={iconGraBlack} alt="Graphic Design icon" />
+              <img src={iconEmlBlack} alt="Email Marketing icon" />
             </div>
           </div>
           <div className="text-center">
             <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-              Web Design
+              Problem Solving
             </h3>
             <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              I'm a problem solver and I'm always looking for new ways to solve
             </p>
           </div>
         </div>

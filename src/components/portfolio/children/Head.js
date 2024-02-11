@@ -1,5 +1,4 @@
 import logo from "../../../assets/img/logo.svg";
-import anyfreeinity from "../../../assets/mydata/anefreeinity_logo.svg";
 import backgroundimage from "../../../assets/img/bg-hero.jpg";
 // import blogAutor from "../../../assets/img/blog-author.jpg";
 import blogAutor from "../../../assets/mydata/profile_photo.jpg";
@@ -16,6 +15,8 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 
 import { PORTFOLIO_DATA } from "../../../data/Data";
+import { TABS } from "../../../data/Data";
+import Social from "../../utils/Social";
 
 export default function Head({
   triggerNavItem,
@@ -23,6 +24,30 @@ export default function Head({
   mobileMenuOpen,
   triggerMobileNavItem,
 }) {
+  const tabItems = TABS.map((tab, key) => (
+    <li className="group pl-6">
+      <span
+        onClick={() => triggerNavItem(tab)}
+        className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+      >
+        {tab}
+      </span>
+
+      <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
+    </li>
+  ));
+
+  const mobTabItems = TABS.map((tab, key) => (
+    <li className="py-2">
+      <span
+        onClick={() => triggerMobileNavItem(tab)}
+        className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+      >
+        {tab}
+      </span>
+    </li>
+  ));
+
   return (
     <div>
       <div className="w-full z-50 top-0 py-3 sm:py-5  absolute">
@@ -49,94 +74,7 @@ export default function Head({
           </div>
 
           <div className="hidden lg:block">
-            <ul className="flex items-center">
-              <li className="group pl-6">
-                <span
-                  onClick={() => triggerNavItem("about")}
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-                >
-                  About
-                </span>
-
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
-              </li>
-              <li className="group pl-6">
-                <span
-                  onClick={() => triggerNavItem("services")}
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-                >
-                  Services
-                </span>
-
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
-              </li>
-
-              <li className="group pl-6">
-                <span
-                  onClick={() => triggerNavItem("portfolio")}
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-                >
-                  Portfolio
-                </span>
-
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
-              </li>
-
-              <li className="group pl-6">
-                <span
-                  onClick={() => triggerNavItem("clients")}
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-                >
-                  Clients
-                </span>
-
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
-              </li>
-
-              <li className="group pl-6">
-                <span
-                  onClick={() => triggerNavItem("work")}
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-                >
-                  Work
-                </span>
-
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
-              </li>
-
-              <li className="group pl-6">
-                <span
-                  onClick={() => triggerNavItem("statistics")}
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-                >
-                  Statistics
-                </span>
-
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
-              </li>
-
-              <li className="group pl-6">
-                <span
-                  onClick={() => triggerNavItem("blog")}
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-                >
-                  Blog
-                </span>
-
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
-              </li>
-
-              <li className="group pl-6">
-                <span
-                  onClick={() => triggerNavItem("contact")}
-                  className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-                >
-                  Contact
-                </span>
-
-                <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
-              </li>
-            </ul>
+            <ul className="flex items-center">{tabItems}</ul>
           </div>
 
           <div className="block lg:hidden">
@@ -171,79 +109,7 @@ export default function Head({
             <img src={closeIcon} className="h-10 w-auto" alt />
           </button>
 
-          <ul className="mt-8 flex flex-col">
-            <li className="py-2">
-              <span
-                onClick={() => triggerMobileNavItem("about")}
-                className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-              >
-                About
-              </span>
-            </li>
-
-            <li className="py-2">
-              <span
-                onClick={() => triggerMobileNavItem("services")}
-                className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-              >
-                Services
-              </span>
-            </li>
-
-            <li className="py-2">
-              <span
-                onClick={() => triggerMobileNavItem("portfolio")}
-                className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-              >
-                Portfolio
-              </span>
-            </li>
-
-            <li className="py-2">
-              <span
-                onClick={() => triggerMobileNavItem("clients")}
-                className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-              >
-                Clients
-              </span>
-            </li>
-
-            <li className="py-2">
-              <span
-                onClick={() => triggerMobileNavItem("work")}
-                className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-              >
-                Work
-              </span>
-            </li>
-
-            <li className="py-2">
-              <span
-                onClick={() => triggerMobileNavItem("statistics")}
-                className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-              >
-                Statistics
-              </span>
-            </li>
-
-            <li className="py-2">
-              <span
-                onClick={() => triggerMobileNavItem("blog")}
-                className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-              >
-                Blog
-              </span>
-            </li>
-
-            <li className="py-2">
-              <span
-                onClick={() => triggerMobileNavItem("contact")}
-                className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-              >
-                Contact
-              </span>
-            </li>
-          </ul>
+          <ul className="mt-8 flex flex-col">{mobTabItems}</ul>
         </div>
       </div>
 
@@ -267,33 +133,22 @@ export default function Head({
               </div>
               <div className="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
                 <h1 className="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
-                  Hello I'm Ayan Bhattacharya!
+                  Hello, I'm {PORTFOLIO_DATA.profile.name}!
                 </h1>
                 <div className="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start">
                   <div className="flex items-center justify-center pl-0 sm:justify-start md:pl-1">
                     <p className="font-body text-lg uppercase text-white">
                       Let's connect
                     </p>
-                    <div className="hidden sm:block">
+                    <div
+                      style={{ paddingLeft: "8px" }}
+                      className="hidden sm:block"
+                    >
                       <i className="fa fa-chevron-right text-3xl text-yellow"></i>
                     </div>
                   </div>
                   <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
-                    <a href="/">
-                      <i className="fa fa-facebook-official fa-lg text-white hover:text-yellow"></i>
-                    </a>
-                    <a href="/" className="pl-4">
-                      <i className="fa fa-twitter fa-lg text-white hover:text-yellow"></i>
-                    </a>
-                    <a href="/" className="pl-4">
-                      <i className="fa fa-github fa-lg text-white hover:text-yellow"></i>
-                    </a>
-                    <a href="/" className="pl-4">
-                      <i className="fa fa-linkedin fa-lg text-white hover:text-yellow"></i>
-                    </a>
-                    <a href="/" className="pl-4">
-                      <i className="fa fa-instagram fa-lg text-white hover:text-yellow"></i>
-                    </a>
+                    <Social color_class={"text-white"} />
                   </div>
                 </div>
               </div>
@@ -304,10 +159,10 @@ export default function Head({
         <About />
         <Service />
         <Project />
-        <Client />
+        {/* <Client /> */}
         <Work />
         <Statistics />
-        <Blog />
+        {/* <Blog /> */}
         <Contact />
       </div>
       <Footer />
