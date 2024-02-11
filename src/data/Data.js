@@ -35,9 +35,11 @@ export const PORTFOLIO_DATA = {
     ],
   },
   about: {
-    header: "I'm Ayan Bhattacharya, a FullStack Developer and Problem Solver",
-    discription:
-      "Since my childhood, I've harbored a fascination for the realms of science and technology. I pursued a bachelor's degree in electronics and instrumentation, discovering that virtually and physically implementing ideas becomes possible with software tools and technology. As I navigate this world, I find immense joy in learning and applying various techniques throughout my career.",
+    header: "I'm Ayan Bhattacharya, a FullStack Developer and Problem Solver.",
+    discription: `Since my childhood, I've harbored a fascination for the realms of science and technology. 
+      I pursued a bachelor's degree in electronics and instrumentation, discovering that virtually and 
+      physically implementing ideas becomes possible with software tools and technology. As I navigate 
+      this world, I find immense joy in learning and applying various techniques throughout my career.`,
     skills: [
       {
         name: "DOTNET CORE",
