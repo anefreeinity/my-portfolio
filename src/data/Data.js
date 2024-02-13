@@ -71,7 +71,7 @@ export const PORTFOLIO_DATA = {
       name: "ANEFreeInIty",
       photo:
         "https://pbs.twimg.com/media/GGEL9bVbEAAAXtK?format=jpg&name=large",
-      description: `Use this credentials to test the system.\nUserId: "user@123"\n Password: "Password"`,
+      description: `Use this credentials to test the system.\nUserId: "user@123"\n Password: "password"`,
       hostLink: "https://anefreeinity.vercel.app/",
       repoLink: null,
     },
@@ -79,7 +79,7 @@ export const PORTFOLIO_DATA = {
       name: "ANEFreeInIty music",
       photo:
         "https://pbs.twimg.com/media/GGEL9TMbUAA6Wx-?format=jpg&name=large",
-      description: `Use this credentials to test the system.\nUserId: "user@123"\n Password: "Password"`,
+      description: `Use this credentials to test the system.\nUserId: "user@123"\n Password: "password"`,
       hostLink: "https://anefreeinity.vercel.app/",
       repoLink: null,
     },

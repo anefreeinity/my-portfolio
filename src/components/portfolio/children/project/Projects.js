@@ -1,5 +1,4 @@
 import { useState } from "react";
-import appleProject from "../../../../assets/img/portfolio-apple.jpeg";
 import { PORTFOLIO_DATA } from "../../../../data/Data";
 import ProjectDetail from "./ProjectDetails";
 
