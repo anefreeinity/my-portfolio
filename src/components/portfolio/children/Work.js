@@ -3,7 +3,10 @@ import { PORTFOLIO_DATA } from "../../../data/Data";
 
 export default function Work() {
   const workExperiences = PORTFOLIO_DATA.workExperiences.map((company, key) => (
-    <div className="mt-8 flex flex-col text-center md:flex-row md:text-left">
+    <div
+      key={key}
+      className="mt-8 flex flex-col text-center md:flex-row md:text-left"
+    >
       <div className="md:w-2/5">
         <div className="flex justify-center md:justify-start">
           <span className="shrink-0">

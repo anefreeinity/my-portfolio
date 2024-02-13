@@ -6,7 +6,7 @@ import closeIcon from "../../../assets/img/icon-close.svg";
 
 import About from "./About";
 import Service from "./Services";
-import Project from "./Projects";
+import Project from "./project/Projects";
 import Client from "./Clients";
 import Work from "./Work";
 import Statistics from "./Statistics";
@@ -25,7 +25,7 @@ export default function Head({
   triggerMobileNavItem,
 }) {
   const tabItems = TABS.map((tab, key) => (
-    <li className="group pl-6">
+    <li key={key} className="group pl-6">
       <span
         onClick={() => triggerNavItem(tab)}
         className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
@@ -38,7 +38,7 @@ export default function Head({
   ));
 
   const mobTabItems = TABS.map((tab, key) => (
-    <li className="py-2">
+    <li key={key} className="py-2">
       <span
         onClick={() => triggerMobileNavItem(tab)}
         className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
@@ -106,7 +106,7 @@ export default function Head({
               setMobileMenuOpen(false);
             }}
           >
-            <img src={closeIcon} className="h-10 w-auto" alt />
+            <img src={closeIcon} className="h-10 w-auto" alt="close icon" />
           </button>
 
           <ul className="mt-8 flex flex-col">{mobTabItems}</ul>

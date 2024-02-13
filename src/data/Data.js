@@ -68,28 +68,36 @@ export const PORTFOLIO_DATA = {
   ],
   projects: [
     {
+      name: "ANEFreeInIty",
       photo:
         "https://pbs.twimg.com/media/GGEL9bVbEAAAXtK?format=jpg&name=large",
+      description: `Use this credentials to test the system.\nUserId: "user@123"\n Password: "Password"`,
       hostLink: "https://anefreeinity.vercel.app/",
-      repoLink: "",
+      repoLink: null,
     },
     {
+      name: "ANEFreeInIty music",
       photo:
         "https://pbs.twimg.com/media/GGEL9TMbUAA6Wx-?format=jpg&name=large",
+      description: `Use this credentials to test the system.\nUserId: "user@123"\n Password: "Password"`,
       hostLink: "https://anefreeinity.vercel.app/",
-      repoLink: "",
+      repoLink: null,
     },
     {
+      name: "ANEFreeInIty AI",
       photo:
         "https://pbs.twimg.com/media/GGEL9OlaAAAeRIb?format=jpg&name=large",
-      hostLink: "",
+      description: null,
+      hostLink: null,
       repoLink: "https://github.com/anefreeinity-org/ANEFreeInIty-AI",
     },
     {
+      name: "ANEFreeInIty Three",
       photo:
         "https://pbs.twimg.com/media/GGEL9GQa0AA2wfx?format=jpg&name=large",
-      hostLink: "https://anefreeinity-three.netlify.app/",
-      repoLink: "",
+      description: null,
+      hostLink: "https://anefreeinitythree.netlify.app/",
+      repoLink: "https://github.com/anefreeinity/three-js",
     },
   ],
   workExperiences: [

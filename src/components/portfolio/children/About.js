@@ -3,7 +3,7 @@ import Social from "../../utils/Social";
 
 export default function About() {
   const tabItems = PORTFOLIO_DATA.about.skills.map((skill, key) => (
-    <div className={key === 0 ? "" : "pt-6"}>
+    <div key={key} className={key === 0 ? "" : "pt-6"}>
       <div className="flex items-end justify-between">
         <h4 className="font-body font-semibold uppercase text-black">
           {skill.name}
