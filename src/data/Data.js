@@ -71,14 +71,14 @@ export const PORTFOLIO_DATA = {
       name: "ANEFreeInIty",
       photo:
         "https://pbs.twimg.com/media/GGEL9bVbEAAAXtK?format=jpg&name=large",
-      description: `Use this credentials to test the system.\n%\nUserId: "user@123"\n Password: "password"\n%\n
+      description: `Use this credentials to test the system.\n*UserId: "user@123"\n *Password: "password"\n%\n
       "My project, 'ANEFreeInIty,' serves as a comprehensive implementation of my learning journey. It features multiple tabs, each offering distinct functionalities:"\n%\n
-      1.HOME: Utilizes the My Anime List API to fetch anime data, enabling users to browse and search for anime. Authenticated users can also watch anime.\n%\n
-      2.Music: Integrates the Spotify API to display songs categorized under various playlists. Users can enjoy free music previews.\n%\n
-      3.CANVAS: Currently a work in progress, this tab focuses on implementing mathematical functions and scientific concepts using Canvas and ThreeJS.\n%\n
+      1.HOME: Utilizes the My Anime List API to fetch anime data, enabling users to browse and search for anime. Authenticated users can also watch anime.\n
+      2.Music: Integrates the Spotify API to display songs categorized under various playlists. Users can enjoy free music previews.\n
+      3.CANVAS: Currently a work in progress, this tab focuses on implementing mathematical functions and scientific concepts using Canvas and ThreeJS.\n
       4.PROFILE: Implements a backend API using Node.js and Express, with a MongoDB database hosted on different platforms. JSON Web Token (JWT) authentication is implemented for secure access.\n%\n
-      *User Tab: Allows users to access, update, and delete their data.
-      *Admin: Provides access to admin-specific data for users with admin credentials.\n%\n
+      *User Tab: Allows users to access, update, and delete their data.\n
+      *Admin: Provides access to admin-specific data for users with admin credentials.\n
       *SuperAdmin: Reserved for users with superadmin credentials, offering functionalities to generate new users, and update or delete user details.\n%\n
       This project showcases a diverse range of skills and technologies, demonstrating my proficiency in full-stack development and API integration.
       `,
@@ -89,7 +89,7 @@ export const PORTFOLIO_DATA = {
       name: "ANEFreeInIty music",
       photo:
         "https://pbs.twimg.com/media/GGEL9TMbUAA6Wx-?format=jpg&name=large",
-      description: `Use this credentials to test the system.\n%\nUserId: "user@123"\n Password: "password" \n%\nSame as 'ANEFreeInIty'.`,
+      description: `Use this credentials to test the system.\n%\n*UserId: "user@123"\n *Password: "password" \n%\nSame as 'ANEFreeInIty'.`,
       hostLink: "https://anefreeinity.vercel.app/",
       repoLink: null,
     },
