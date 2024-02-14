@@ -71,7 +71,17 @@ export const PORTFOLIO_DATA = {
       name: "ANEFreeInIty",
       photo:
         "https://pbs.twimg.com/media/GGEL9bVbEAAAXtK?format=jpg&name=large",
-      description: `Use this credentials to test the system.\nUserId: "user@123"\n Password: "password"`,
+      description: `Use this credentials to test the system.\n%\nUserId: "user@123"\n Password: "password"\n%\n
+      "My project, 'ANEFreeInIty,' serves as a comprehensive implementation of my learning journey. It features multiple tabs, each offering distinct functionalities:"\n%\n
+      1.HOME: Utilizes the My Anime List API to fetch anime data, enabling users to browse and search for anime. Authenticated users can also watch anime.\n%\n
+      2.Music: Integrates the Spotify API to display songs categorized under various playlists. Users can enjoy free music previews.\n%\n
+      3.CANVAS: Currently a work in progress, this tab focuses on implementing mathematical functions and scientific concepts using Canvas and ThreeJS.\n%\n
+      4.PROFILE: Implements a backend API using Node.js and Express, with a MongoDB database hosted on different platforms. JSON Web Token (JWT) authentication is implemented for secure access.\n%\n
+      *User Tab: Allows users to access, update, and delete their data.
+      *Admin: Provides access to admin-specific data for users with admin credentials.\n%\n
+      *SuperAdmin: Reserved for users with superadmin credentials, offering functionalities to generate new users, and update or delete user details.\n%\n
+      This project showcases a diverse range of skills and technologies, demonstrating my proficiency in full-stack development and API integration.
+      `,
       hostLink: "https://anefreeinity.vercel.app/",
       repoLink: null,
     },
@@ -79,7 +89,7 @@ export const PORTFOLIO_DATA = {
       name: "ANEFreeInIty music",
       photo:
         "https://pbs.twimg.com/media/GGEL9TMbUAA6Wx-?format=jpg&name=large",
-      description: `Use this credentials to test the system.\nUserId: "user@123"\n Password: "password"`,
+      description: `Use this credentials to test the system.\n%\nUserId: "user@123"\n Password: "password" \n%\nSame as 'ANEFreeInIty'.`,
       hostLink: "https://anefreeinity.vercel.app/",
       repoLink: null,
     },
@@ -87,7 +97,15 @@ export const PORTFOLIO_DATA = {
       name: "ANEFreeInIty AI",
       photo:
         "https://pbs.twimg.com/media/GGEL9OlaAAAeRIb?format=jpg&name=large",
-      description: null,
+      description: `
+      I have developed a vector library using C++ as a DLL (Dynamic Link Library) and exposed its 
+      functionality through a .NET API. The library allows users to create and manipulate vectors, 
+      performing various mathematical operations. The data is stored in a SQL-based database.\n%\n
+
+      The user interface enables users to create multiple vectors and perform operations such as addition, 
+      subtraction, scalar multiplication and linear combination. All calculations are processed in the backend using the C++ DLL, 
+      ensuring efficient and accurate computations.
+      `,
       hostLink: null,
       repoLink: "https://github.com/anefreeinity-org/ANEFreeInIty-AI",
     },
@@ -95,9 +113,23 @@ export const PORTFOLIO_DATA = {
       name: "ANEFreeInIty Three",
       photo:
         "https://pbs.twimg.com/media/GGEL9GQa0AA2wfx?format=jpg&name=large",
-      description: null,
-      hostLink: "https://anefreeinitythree.netlify.app/",
-      repoLink: "https://github.com/anefreeinity/three-js",
+      description: `
+      This project utilizes React and Three.js to create an interactive 3D scene. The scene includes a panel 
+      that can be rotated, allowing users to view and read labels. By clicking on elements, users can select 
+      them. Once selected, users can interact with the elements further, such as enabling additional options.\n%\n
+
+      A unique feature is the ability to select multiple elements by checking a 'select to drag' option, 
+      which allows users to hold and drag to select multiple elements. This selection is temporary and can 
+      be undone by deselecting the option, ensuring flexibility and ease of use.\n%\n
+
+      Additionally, the project includes a waterflow animation feature. Users can enable this feature to 
+      enjoy a realistic water flow animation, including dripping water through nozzles that were previously 
+      selected. This feature adds a dynamic and visually engaging element to the scene.
+      (Note: Some functionalities may not work in mobile view)
+      `,
+      hostLink: "https://anefreeinity-three.netlify.app/",
+      repoLink: null,
+      //"https://github.com/anefreeinity/three-js"
     },
   ],
   workExperiences: [

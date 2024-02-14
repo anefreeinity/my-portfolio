@@ -4,7 +4,7 @@ import { Dialog, Transition } from "@headlessui/react";
 export default function ProjectDetail({
   open,
   setOpen,
-  description = "Not provided",
+  description = "Not provided\n",
   hostLink = "Not Available",
   repoLink = "Not Available",
   name = "Not provided",
@@ -17,6 +17,8 @@ export default function ProjectDetail({
       window.open(link, "_blank");
     }
   };
+
+  description = description === null ? "Not provided\n" : description;
 
   return (
     <Transition.Root show={open} as={Fragment}>
@@ -104,9 +106,21 @@ export default function ProjectDetail({
                       borderRadius: "5px",
                     }}
                   >
-                    <p className="text-sm text-gray-500">
-                      {description === null ? "Not provided" : description}
-                    </p>
+                    <ol>
+                      {description &&
+                        description.split("\n").map((item, index) => (
+                          <li key={index}>
+                            <p
+                              style={{
+                                textAlign: "justify",
+                                textJustify: "inter-word",
+                              }}
+                            >
+                              {item === "%" ? <span>&nbsp;</span> : item}
+                            </p>
+                          </li>
+                        ))}
+                    </ol>
                   </div>
                   <Dialog.Title
                     as="h3"
