@@ -33,7 +33,7 @@ export default function Portfolio() {
     triggerNavItem(id);
   };
 
-  let bodyClasses = "relative";
+  let bodyClasses = "relative font-mono";
   if (mobileMenuOpen) {
     bodyClasses += " overflow-hidden max-h-screen";
   }
