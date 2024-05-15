@@ -111,28 +111,6 @@ export const PORTFOLIO_DATA = {
       hostLink: null,
       repoLink: "https://github.com/anefreeinity-org/ANEFreeInIty-AI",
     },
-    {
-      name: "ANEFreeInIty Three",
-      photo:
-        "https://pbs.twimg.com/media/GGEL9GQa0AA2wfx?format=jpg&name=large",
-      description: `
-      This project utilizes React and Three.js to create an interactive 3D scene. The scene includes a panel 
-      that can be rotated, allowing users to view and read labels. By clicking on elements, users can select 
-      them. Once selected, users can interact with the elements further, such as enabling additional options.\n%\n
-
-      A unique feature is the ability to select multiple elements by checking a 'select to drag' option, 
-      which allows users to hold and drag to select multiple elements. This selection is temporary and can 
-      be undone by deselecting the option, ensuring flexibility and ease of use.\n%\n
-
-      Additionally, the project includes a waterflow animation feature. Users can enable this feature to 
-      enjoy a realistic water flow animation, including dripping water through nozzles that were previously 
-      selected. This feature adds a dynamic and visually engaging element to the scene.
-      (Note: Some functionalities may not work in mobile view)
-      `,
-      hostLink: "https://anefreeinity-three.netlify.app/",
-      repoLink: null,
-      //"https://github.com/anefreeinity/three-js"
-    },
   ],
   workExperiences: [
     {
@@ -171,3 +149,27 @@ export const TABS = [
   "statistics",
   "contact",
 ];
+
+// {
+//   name: "ANEFreeInIty Three",
+//   photo:
+//     "https://pbs.twimg.com/media/GGEL9GQa0AA2wfx?format=jpg&name=large",
+//   description: `
+//   This project utilizes React and Three.js to create an interactive 3D scene. The scene includes a panel
+//   that can be rotated, allowing users to view and read labels. By clicking on elements, users can select
+//   them. Once selected, users can interact with the elements further, such as enabling additional options.\n%\n
+
+//   A unique feature is the ability to select multiple elements by checking a 'select to drag' option,
+//   which allows users to hold and drag to select multiple elements. This selection is temporary and can
+//   be undone by deselecting the option, ensuring flexibility and ease of use.\n%\n
+
+//   Additionally, the project includes a waterflow animation feature. Users can enable this feature to
+//   enjoy a realistic water flow animation, including dripping water through nozzles that were previously
+//   selected. This feature adds a dynamic and visually engaging element to the scene.
+//   (Note: Some functionalities may not work in mobile view)
+//   `,
+//   hostLink: null,
+//   //"https://anefreeinity-three.netlify.app/"
+//   repoLink: null,
+//   //"https://github.com/anefreeinity/three-js"
+// },
